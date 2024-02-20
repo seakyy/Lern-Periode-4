@@ -12,11 +12,11 @@ David Koteski
 
 2. Was hatten Sie sich am Ende von LP3 vorgenommen? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
 
-   In dieser LP will ich ein Projekt mit einer API machen, und/oder die Dateien über eine .json File speichern.
+   In dieser LP will ich ein Projekt mit einem Discord Bot machen.
 
 3. Was wäre ein geeignetes Projekt würd diese LP3?
 
-   Ein Programm zu schreiben, dass Details über Autos über eine Website gibt. Z.b Audi A3 ---> 150 PS, 200 Nm
+   Ein Programm zu schreiben, sodass ich selbst einen Discord Bot konfigurieren kann.
 
 
 
