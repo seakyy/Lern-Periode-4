@@ -34,7 +34,7 @@ Heute habe ich recherchiert und geschaut, wo und wie ich einen Discord Bot mache
 
 |Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
-| 1              |    Informationen     |  (noch nichts) |   Wissen       |          |
+| 1              |    Informationen     |  (noch nichts) |   (noch nichts)       |          |
 | 2              |     Tastatur         |   Text         |   Memes        |          |
 | 3              |     Internet         |   Text         |                |          |
 | 4              | Bot und Discord      |  Command       |(noch nicht entschieden)|          |
