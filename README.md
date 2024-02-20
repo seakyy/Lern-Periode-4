@@ -12,7 +12,7 @@ David Koteski
 
 2. Was hatten Sie sich am Ende von LP3 vorgenommen? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
 
-   In dieser LP will ich ein Projekt mit einem Discord Bot machen.
+   In dieser LP will ich ein Projekt mit einem Discord Bot machen. Als VBV möchte ich mir zuerst mehr Informationen aussuchen und anschauen bevor ich mit dem Projekt anfange.
 
 3. Was wäre ein geeignetes Projekt würd diese LP3?
 
@@ -21,5 +21,7 @@ David Koteski
 
 
 ## 20.2.2024
+
+Heute habe ich recherchiert und geschaut, wo und wie ich einen Discord Bot machen kann. Ich möchte einen eigenen Bot in den Discord Server von meinen Kollegen einfügen, um Memes abspielen zu können.
 
    
