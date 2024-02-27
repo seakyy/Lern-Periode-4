@@ -39,4 +39,22 @@ Heute habe ich recherchiert und geschaut, wo und wie ich einen Discord Bot mache
 | 3              |     Internet         |   Text         |                |          |
 | 4              | Bot und Discord      |  Command       |(noch nicht entschieden)|          |
 
-   
+
+✍️ Heute am 27.2 habe ich... (50-100 Wörter)
+
+Ich habe mich umentschieden, es sollte zuerst ein Bot werden der den gesamten Discord Server benachrichtigt, wenn ein bestimtter Youtuber ein neues Video veröffentlicht hat. Somit sind alle Mitglieder des Servers auf dem neuesten Stand und verpassen keine tollen Videos mehr. Ich programmiere den Bot in C#. Ich habe angefangen das Discord Add-on in C# herunterzuladen und die Basis funktionen zu programmieren.
+
+
+## 05.03.2024
+
+- [ ] Bot vollständig funktionstüchtig machen
+- [ ] Mich informieren wie ich es dazu schaffe den Bot online zu bekommen
+- [ ] Wie greift der Bot auf dem YT-Kanal zu?
+- [ ] Erster Testversuch um zu überprüfen ob es klappt
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 5               |   Visual Studio   | Startknopf auf VS | Bot funktioniert / Stürzt nicht ab|     |
+| 6               |   Internet  | (nichts)  | (nichts) |        |
+| 7               |   Youtube und VS |  URL vom Kanal     | Kann Zugreifen|       |
+| 8               |     Discord         |  Command  |  Zeigt Informationen über den YT-Kanal  |       |
