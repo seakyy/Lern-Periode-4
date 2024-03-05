@@ -54,7 +54,29 @@ Ich habe mich umentschieden, es sollte zuerst ein Bot werden der den gesamten Di
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 5               |   Visual Studio   | Startknopf auf VS | Bot funktioniert / Stürzt nicht ab|     |
-| 6               |   Internet  | (nichts)  | (nichts) |        |
-| 7               |   Youtube und VS |  URL vom Kanal     | Kann Zugreifen|       |
-| 8               |     Discord         |  Command  |  Zeigt Informationen über den YT-Kanal  |       |
+| 5               |   Visual Studio   | Startknopf auf VS | Bot funktioniert / Stürzt nicht ab|   ja  |
+| 6               |   Internet  | (nichts)  | (nichts) |    ja    |
+| 7               |   Youtube und VS |  URL vom Kanal     | Kann Zugreifen|     nein  |
+| 8               |     Discord         |  Command  |  Zeigt Informationen über den YT-Kanal  |    nein   |
+
+
+✍️ Heute am 5.3 habe ich... (50-100 Wörter)
+
+Heute habe ich den Bot gründsätzlich fertig programmiert, dass heisst der Bot schafft es ohne Fehler zu starten und Online zu kommen. Jedoch kann man noch keine /-Befehle durchführen respektiv führt noch nichts aus. Ich musste den Token vom Bot öfters resetten und auch erneuern. Die ersten zwei Arbeitspakete wurden erledigt. Für die nächsten zwei muss ich aber zuerst noch die /-Befehle programmieren und müssen somit weit zurück verschoben werden.
+
+
+## 12.03.2024
+
+- [ ] Überlegen / Informieren was für Commands es braucht
+- [ ] Diese Commands zu programmieren
+- [ ] Testen ob sie funktionieren / Keine Fehler
+- [ ] Testen ob sie etwas ausgeben können 
+
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 9              |   Internet  | (nichts)  | (nichts) |        |
+| 10                |   Visual Studio   | Startknopf auf VS | Funktioniert ohne Fehler|     |
+| 11               |     Discord & VS        |  Command / Start  |  Bot reagiert |       |
+| 12               |     Discord         |  Command  |  Zeigt etwas |       |
+
