@@ -75,8 +75,27 @@ Heute habe ich den Bot gründsätzlich fertig programmiert, dass heisst der Bot 
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 9              |   Internet  | (nichts)  | (nichts) |        |
-| 10                |   Visual Studio   | Startknopf auf VS | Funktioniert ohne Fehler|     |
-| 11               |     Discord & VS        |  Command / Start  |  Bot reagiert |       |
-| 12               |     Discord         |  Command  |  Zeigt etwas |       |
+| 9              |   Internet  | (nichts)  | (nichts) |    ja    |
+| 10                |   Visual Studio   | Startknopf auf VS | Funktioniert ohne Fehler|  ja   |
+| 11               |     Discord & VS        |  Command / Start  |  Bot reagiert |   ja    |
+| 12               |     Discord         |  Command  |  Zeigt etwas |   ja    |
+
+✍️ Heute am 12.3 habe ich... (50-100 Wörter)
+Zum ersten Mal die Commands programmiert. Der Bot startet auf und kommt Online, führt die Commands sauber aus und gibt keine Fehler heraus. Der erste Command ist gleichzustellen mit dem "Hello World" in C#, der Bot sagt: Hallo(username)! Am Anfang hatte ich schwierigeiten das Programm und den Bot aufzustarten weil ich ausversehen mein Token vom Bot resetet habe. Das hat dazu geführt dass er auf einen ungültigen Code zurückgegriffen hat und das Programm abgestürzt ist. Als Lösung habe ich den Token noch mal resetet und ihn dann kopiert und im Programm neu eingefügt. Danach klappte alles super.
+
+
+## 19.03.2024
+
+- [ ] Mehr Commands schreiben, für Testzwecke
+- [ ] Mich informieren wie "embed messages" funktionieren
+- [ ] Die neuen Commands in "embed messages" zu transformieren
+- [ ] Den Bot interaktionsfähig zu machen
+
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 13           |   VS  | !Command  | Task |        |
+| 14                |   Internet  | (nichts)  | (nichts) |    |
+| 15               |      VS        |  Command   |  Programm lauft ohne Probleme |       |
+| 16               |     Discord & VS        |  Command  |  interagiert mit sich selbst oder dem User |       |
 
