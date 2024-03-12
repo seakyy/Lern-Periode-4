@@ -81,6 +81,7 @@ Heute habe ich den Bot gründsätzlich fertig programmiert, dass heisst der Bot 
 | 12               |     Discord         |  Command  |  Zeigt etwas |   ja    |
 
 ✍️ Heute am 12.3 habe ich... (50-100 Wörter)
+
 Zum ersten Mal die Commands programmiert. Der Bot startet auf und kommt Online, führt die Commands sauber aus und gibt keine Fehler heraus. Der erste Command ist gleichzustellen mit dem "Hello World" in C#, der Bot sagt: Hallo(username)! Am Anfang hatte ich schwierigeiten das Programm und den Bot aufzustarten weil ich ausversehen mein Token vom Bot resetet habe. Das hat dazu geführt dass er auf einen ungültigen Code zurückgegriffen hat und das Programm abgestürzt ist. Als Lösung habe ich den Token noch mal resetet und ihn dann kopiert und im Programm neu eingefügt. Danach klappte alles super.
 
 
