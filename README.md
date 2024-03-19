@@ -95,8 +95,16 @@ Zum ersten Mal die Commands programmiert. Der Bot startet auf und kommt Online, 
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
-| 13           |   VS  | !Command  | Task |        |
-| 14                |   Internet  | (nichts)  | (nichts) |    |
-| 15               |      VS        |  Command   |  Programm lauft ohne Probleme |       |
-| 16               |     Discord & VS        |  Command  |  interagiert mit sich selbst oder dem User |       |
+| 13           |   VS  | !Command  | Task |    ja    |
+| 14                |   Internet  | (nichts)  | (nichts) |  ja  |
+| 15               |      VS        |  Command   |  Programm lauft ohne Probleme |    ja   |
+| 16               |     Discord & VS        |  Command  |  interagiert mit sich selbst oder dem User |   50/50    |
+
+✍️ Heute am 19.3 habe ich... (50-100 Wörter)
+
+Ich habe mein Ziel erfüllt, es sind von den basic Commands "add" & "subtract" noch viel mehr weitere hinzugekommen. Ich habe es geschafft mit den Command !rick einen Rick Astley Gif wiederzugeben. Ich zweifle sehr daran dass meine Idee überhaupt umsetzbar ist, da es mein Ziel wäre, immer das neuste Video von einem Youtuber auf Discord per Link hochzuladen. Ich habe mich informiert und eigentlich bräuchte man dafür keinen eigenen Bot, sondern nur einen Webhook. Deshalb muss ich mein Plan überarbeiten. 
+
+
+
+
 
