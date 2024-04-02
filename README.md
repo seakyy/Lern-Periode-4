@@ -104,6 +104,48 @@ Zum ersten Mal die Commands programmiert. Der Bot startet auf und kommt Online, 
 
 Ich habe mein Ziel erfüllt, es sind von den basic Commands "add" & "subtract" noch viel mehr weitere hinzugekommen. Ich habe es geschafft mit den Command !rick einen Rick Astley Gif wiederzugeben. Ich zweifle sehr daran dass meine Idee überhaupt umsetzbar ist, da es mein Ziel wäre, immer das neuste Video von einem Youtuber auf Discord per Link hochzuladen. Ich habe mich informiert und eigentlich bräuchte man dafür keinen eigenen Bot, sondern nur einen Webhook. Deshalb muss ich mein Plan überarbeiten. 
 
+## 26.03.2024
+
+- [ ] Bot komplett überarbeiten
+- [ ] Alte Commands lassen oder ersetzten und überarbeiten
+- [ ] Einen Weg zu finden, wie man das ohne Webhok machen kann.
+- [ ] Den Code so aufbereiten, dass er für das nächste Projekt startklar ist.
+
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 17           |   VS  | nichts  | nichts |    ja    |
+| 18               |   VS / code  | nichts  | nichts |  ja  |
+| 19              |      Internet        |  nichts   |  nichts |    50/50   |
+| 20              |     VS        |  Command  |  Befehl |   ja    |      
+
+
+✍️ Heute am 26.3 habe ich... (50-100 Wörter)
+
+Da ich in der letzten Sitzung festgestellt habe, dass mein Bot doch nicht so geht wie ich es mir vorgestellt habe, muss ich meine Hauptfunktion vom Bot auf ein anderes thema setzen. Damit der Bot immer die neusten Videos per Link schickt muss er die ganze Zeit Online sein. Mit einem Webhook muss man nur den Link eingeben und das Projekt wäre fertig. Aber so schnell lasse ich mich nicht vom Weg abkommen, desshalb habe ich den Bot überarbeitet und möchte ihn für einen Database- oder Support-Bot benutzen.
+
+
+## 02.04.2024
+
+- [ ] Den Code aussäubern
+- [ ] Nur das wichtigste im Code haben
+- [ ] Nochmals überprüfen ob er mit allen Funktionen auf dem Discord Server funktioniert
+
+      
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --------------- | -------------------- | -------------- | -------------- | -------- |
+| 21           |   VS / Code  | nichts  | Sauberer Code |    ja    |
+| 22                |   VS / Code  | nichts  | nichts |  ja  |
+| 23              |      VS / Discord       |  Command   |  Gibt den Befehl richtig aus |    ja   |
+
+✍️ Heute am 2.4 habe ich... (50-100 Wörter)
+
+Meinen ganzen Code nochmals überarbeitet und geschaut das nur das wichtigste reinkommt. Ich habe es probiert ihn so klar wie möglich zu schreiben, obwohl er meiner Meinung nach nicht viel Linien Code hat die verwirrend wirken. Nachdem ich alles aufgeräumt und gesäubert habe musste ich den Bot nochmals testen um zu schauen ob er auch wirklich funktioniert. Das war der Fall und deswegen habe ich meiner Meinung nach diese LP mein Projekt nur teilweise erfüllt.
+
+
+#Reflexion
+
+VBV: Ich habe mich am Anfang der LP nicht gut genug informiert über die Funktionsweise vom Discord Bot. Ich empfinde das aber als nicht schlimm, da man aus seinen Fehlern lernt. Dafür sollte ich aber zuerst ein Funktions-konzept machen, welches mir die Klarheit des Projekts schon am Anfang gibt. Jedoch denke ich, dass ich sehr gut und konzentriert durch die ganze LP gearbeitet habe.
 
 
 
