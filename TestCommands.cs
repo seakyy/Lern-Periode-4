@@ -35,7 +35,7 @@ namespace Gleggmire_Discord_Bot.commands
         [Command("gleggmire")]
         public async Task GleggYT(CommandContext ctx)
         {
-            await ctx.Channel.SendMessageAsync($"Hallo schmieriger {ctx.User.Username}.  Das hier ist mein neustes Youtube Video. Haha Koooompleterino jo jo jo   " +
+            await ctx.Channel.SendMessageAsync($"Hallo schmieriger {ctx.User.Username}.  Das hier ist mein neustes Youtube Video. Hahaha Koooompleterino jo jo jo   " +
                 $"https://www.youtube.com/@gleggmire/videos");
         }
 
@@ -50,7 +50,7 @@ namespace Gleggmire_Discord_Bot.commands
             else
             {
                 await ctx.RespondAsync($"Hallo {ctx.User.Username}. " +
-                    $"Dieser Befehl kann nur von ***balls*** verwendet werden.");
+                    $"Dieser Befehl kann nur von ***balls*** verwendet werden."); //"balls" ist der Server-Owner
             }
         }
 

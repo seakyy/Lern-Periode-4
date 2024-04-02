@@ -1,5 +1,6 @@
 ﻿using DSharpPlus;
 using DSharpPlus.CommandsNext;
+using Gleggmire_Discord_Bot.commands;
 using Gleggmire_Discord_Bot.config;
 using System.Threading.Tasks;
 
@@ -26,6 +27,18 @@ namespace Gleggmire_Discord_Bot
             Client = new DiscordClient(discordconfig);
 
             Client.Ready += Client_Ready;
+
+            var commandsConfig = new CommandsNextConfiguration()
+            {
+                StringPrefixes = new string[] { jsonReader.prefix },
+                EnableMentionPrefix = true,
+                EnableDms = true,
+                EnableDefaultHelp = true, //Später auf false wenn selber configuert
+            };
+
+            Commands = Client.UseCommandsNext(commandsConfig);
+
+            Commands.RegisterCommands<TestCommands>();
             
             await Client.ConnectAsync();
             await Task.Delay(-1);
